@@ -1,32 +1,57 @@
-/* General stuff */
-
+/* all things */
 * {
 	box-sizing: border-box;
 	text-decoration: none;
 	color: black;
 }
 
+/* ----class stuff---- */
 .white {
 	color: white;
-}
-
-.blue {
-	color: blue;
 }
 
 .red {
 	color: red;
 }
 
+.green {
+	color: green;
+}
+
+.blue {
+	color: blue;
+}
+
 .underline {
 	text-decoration: underline;
 }
 
-.ONhover-underline:hover {
+.line-through {
+  text-decoration: line-through;
+}
+
+/* OH = on hover */
+.OHwhite:hover {
+	color: white;
+}
+
+.OHblue:hover {
+	color: blue;
+}
+
+.OHred:hover {
+	color: red;
+}
+
+.OHunderline:hover {
 	text-decoration: underline;
 }
 
-/* New stuff! */
+.OHline-through:hover {
+	text-decoration: line-through;
+}
+
+/* edit */
 
 header {
 	background-color: #666;
@@ -48,6 +73,13 @@ nav {
 	height: 300px;
 	background: #ccc;
 	padding: 20px;
+	text-align: center;
+}
+
+nav.list {
+	width:200px;
+	height: 200px;
+	background: #ccc;
 	text-align: center;
 }
 
@@ -75,10 +107,11 @@ article.center {
 	height: 200px;
 }
 
-@media (max-width: 700px) {
+/* media */
+
+@media (max-width: 880px) {
 	nav, article {
 		width: 100%;
 		height: auto;
 	}
 }
-
