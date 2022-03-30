@@ -1,3 +1,4 @@
-My website for my minecraft add-ons
+My website
 
-Add-ons will be added to the website as I finish them
+Add-ons and texture packs will be added to the website as I finish them.
+
