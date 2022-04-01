@@ -9,44 +9,48 @@
 .white {
 	color: white;
 }
-
 .red {
 	color: red;
 }
-
 .green {
 	color: green;
 }
-
 .blue {
 	color: blue;
 }
 
+/* b = background */
+.whiteB {
+	background-color: #fff;
+}
+.redB {
+	background-color: #f00;
+}
+.greenB {
+	background-color: #0f0;
+}
+.blueB {
+	background-color: #00f;
+}
 .underline {
 	text-decoration: underline;
 }
-
 .line-through {
   text-decoration: line-through;
 }
-
 /* OH = on hover */
 .OHwhite:hover {
 	color: white;
 }
-
 .OHblue:hover {
 	color: blue;
 }
-
 .OHred:hover {
 	color: red;
 }
-
 .OHunderline:hover {
 	text-decoration: underline;
 }
-
 .OHline-through:hover {
 	text-decoration: line-through;
 }
@@ -54,7 +58,7 @@
 /* edit */
 
 header {
-	background-color: #666;
+	/*background-color: #666;*/
 	padding: 1px;
 	text-align: center;
 	font-size: 35px;
@@ -71,7 +75,7 @@ nav {
 	float: left;
 	width: 30%;
 	height: 300px;
-	background: #ccc;
+	/*background: #ccc;*/
 	padding: 20px;
 	text-align: center;
 }
@@ -79,7 +83,7 @@ nav {
 nav.list {
 	width:210px;
 	height: 200px;
-	background: #ccc;
+/*	background: #ccc;*/
 	text-align: center;
 }
 
@@ -87,9 +91,19 @@ article {
 	float: left;
 	padding: 20px;
 	width: 70%;
-	background-color: #f1f1f1;
+/*	background-color: #f1f1f1;*/
 	height: 300px;
 }
+
+article.center {
+	float: left;
+	padding: 20px;
+	width: 100%;
+/*	background-color: #f1f1f1;*/
+	text-align: center;
+	height: 200px;
+}
+
 
 footer {
 	background-color: #777;
@@ -98,13 +112,29 @@ footer {
 	color: white;
 }
 
-article.center {
-	float: left;
-	padding: 20px;
-	width: 100%;
-	background-color: #f1f1f1;
-	text-align: center;
-	height: 200px;
+#background1 {
+	background: url(../backgrounds/background1.jpg) no-repeat center fixed; 
+	background-size: cover;
+}
+
+#background2 {
+	background: url(../backgrounds/background2.jpg) no-repeat center fixed; 
+	background-size: cover;
+}
+
+#background3 {
+	background: url(../backgrounds/background3.jpg) no-repeat center fixed; 
+	background-size: cover;
+}
+
+#background4 {
+	background: url(../backgrounds/background4.jpg) no-repeat center fixed; 
+	background-size: cover;
+}
+
+#background5 {
+	background: url(../backgrounds/background5.jpg) no-repeat center fixed; 
+	background-size: cover;
 }
 
 /* media */
