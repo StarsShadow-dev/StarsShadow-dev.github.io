@@ -71,6 +71,12 @@
 .padding {
 	padding: 10px;
 }
+.pull-left {
+	float: left;
+}
+.pull-right {
+	float: right;
+}
 .center {
 	text-align: center;
 }
@@ -87,12 +93,10 @@
 		</div>
 	</div>
 */
-
 .dropdown {
   position: relative;
   display: inline-block;
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -102,7 +106,6 @@
   padding: 12px 16px;
   z-index: 1;
 }
-
 .dropdown:hover .dropdown-content {
   display: block;
 }
