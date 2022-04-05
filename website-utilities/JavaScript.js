@@ -1,5 +1,4 @@
 customElements.define('custom-element', class extends HTMLElement {
-	// Do not touch this line
 	connectedCallback() {
 		setTimeout(() => {
 			let originalContents = this.innerHTML;

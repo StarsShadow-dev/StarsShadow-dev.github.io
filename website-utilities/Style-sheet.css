@@ -11,6 +11,9 @@
 	color: blue;
 }
 /* b = background */
+.transparentB {
+	background-color: transparent;
+}
 .whiteB {
 	background-color: #fff;
 }
@@ -45,15 +48,24 @@
 	background-color: transparent;
 }
 
+.OHwhiteB:hover {
+	background-color: #fff;
+}
+.OHredB:hover {
+	background-color: #f00;
+}
+.OHgreenB:hover {
+	background-color: #0f0;
+}
+.OHblueB:hover {
+	background-color: #00f;
+}
+
 .OHunderline:hover {
 	text-decoration: underline;
 }
 .OHline-through:hover {
 	text-decoration: line-through;
-}
-
-.OHwhiteB:hover {
-	background-color: #fff;
 }
 
 .padding {
@@ -62,8 +74,8 @@
 .center {
 	text-align: center;
 }
-.big {
-	font-size: 40px;
+.bigtext {
+	font-size: 50px;
 }
 /*
    Experimenting with drop downs.
