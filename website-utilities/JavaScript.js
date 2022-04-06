@@ -45,6 +45,11 @@ function setUpRainbowTags() {
 	});	
 }
 
+function clipboardsave(element) {
+	let contents = element.getAttribute('clipboard-contents');
+	navigator.clipboard.writeText(contents);
+}
+
 window.onload = () => {
 	setUpRainbowTags();
 	document.querySelectorAll(".javascript-disabled").forEach(element => {
