@@ -1,3 +1,4 @@
+/*--Colors--*/
 .white {
 	color: white;
 }
@@ -10,7 +11,9 @@
 .blue {
 	color: blue;
 }
-/* b = background */
+/*and rainbow*/
+
+/*--B = Background colors--*/
 .transparentB {
 	background-color: transparent;
 }
@@ -27,13 +30,28 @@
 	background-color: #00f;
 }
 
+/*--You can also--*/
 .underline {
 	text-decoration: underline;
 }
 .line-through {
   text-decoration: line-through;
 }
-/* OH = on hover */
+.bigtext {
+	font-size: 50px;
+}
+
+.padding {
+	padding: 10px;
+}
+.pull-left {
+	float: left;
+}
+.pull-right {
+	float: right;
+}
+
+/*--OH = on hover--*/
 .OHwhite:hover {
 	color: white;
 }
@@ -42,10 +60,6 @@
 }
 .OHred:hover {
 	color: red;
-}
-
-.OHtransparentB:hover {
-	background-color: transparent;
 }
 
 .OHwhiteB:hover {
@@ -60,6 +74,9 @@
 .OHblueB:hover {
 	background-color: #00f;
 }
+.OHtransparentB:hover {
+	background-color: transparent;
+}
 
 .OHunderline:hover {
 	text-decoration: underline;
@@ -68,21 +85,13 @@
 	text-decoration: line-through;
 }
 
-.padding {
-	padding: 10px;
-}
-.pull-left {
-	float: left;
-}
-.pull-right {
-	float: right;
-}
 .center {
 	text-align: center;
-}
-.bigtext {
-	font-size: 40px;
-}
+} /*(centers everything) example:*/
+/*<div class="center">
+	<!-- Everything in here is centered to the middle of the screen -->
+</div>*/
+
 /*
    Experimenting with drop downs.
 	<div class="dropdown">
