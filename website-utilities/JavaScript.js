@@ -64,11 +64,6 @@ function toggleDebug() {
 	}
 }
 
-function test() {
-	var wordlestate = window.localStorage.getItem('nyt-wordle-state');
-	console.log (wordlestate);
-}
-
 window.onload = () => {
 	setUpRainbowTags();
 	document.querySelectorAll(".javascript-disabled").forEach(element => {
