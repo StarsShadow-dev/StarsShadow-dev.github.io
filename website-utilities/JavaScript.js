@@ -50,9 +50,33 @@ function clipboardsave(element) {
 	navigator.clipboard.writeText(contents);
 }
 
+// Local storage
+function toggleDebug() {
+	if (window.localStorage.getItem("debug") == 'true') {
+		window.localStorage.removeItem('debug');
+		alert("Debug mode turned off.");
+		location.reload();
+	}
+	else {
+		window.localStorage.setItem('debug', 'true');
+		alert("Debug mode turned on.");
+		location.reload();
+	}
+}
+
+function test() {
+	var wordlestate = window.localStorage.getItem('nyt-wordle-state');
+	console.log (wordlestate);
+}
+
 window.onload = () => {
 	setUpRainbowTags();
 	document.querySelectorAll(".javascript-disabled").forEach(element => {
 		element.parentNode.removeChild(element); 
 	});
+	if (window.localStorage.getItem("debug") != 'true') {
+		document.querySelectorAll(".debug-only").forEach(element => {
+			element.parentNode.removeChild(element); 
+		});
+	}
 }
