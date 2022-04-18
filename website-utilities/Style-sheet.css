@@ -11,6 +11,9 @@
 .blue {
 	color: blue;
 }
+.hidden {
+  display: none;
+}
 /*and .rainbow*/
 
 /*--B = Background--*/
