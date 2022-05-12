@@ -122,6 +122,24 @@
   display: block;
 }
 
+.list {
+	padding: 10px;
+}
+
+.QuadList {
+	width: 25%;
+	height: 300px;
+	
+	float: left;
+	text-align: center;
+	display: inline-block;
+	
+/*	background-color: black;
+	opacity: 0.9;*/
+	/*border-style: solid;*/
+	/*padding: 20px;*/
+}
+
 /* edit */
 /* all things */
 * {
