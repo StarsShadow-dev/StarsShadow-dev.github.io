@@ -140,6 +140,10 @@
 	/*padding: 20px;*/
 }
 
+.QuadList:hover{
+	border-style: solid;
+}
+
 /* edit */
 /* all things */
 * {
