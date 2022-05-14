@@ -125,10 +125,13 @@
 
 /* arranging */
 
+.NoScroll {
+	overflow: hidden;
+}
+
 .list {
 	padding: 10px;
 }
-
 .QuadList {
 	width: 25%;
 	height: 300px;
@@ -137,18 +140,22 @@
 	text-align: center;
 	display: inline-block;
 	background: rgba(1, 1, 1, 0);
-	transition: background 1.5s;
+	transition: background 0.5s;
 	
 /*	background-color: black;
 	opacity: 0.6;*/
 	/*border-style: solid;*/
 	/*padding: 20px;*/
 }
-
 .QuadList:hover{
 	border-style: solid;
-	border-color: rgba(1, 1, 1, 0.5);
-	background: rgba(1, 1, 1, 0.4);
+	border-color: rgba(1, 1, 1, 0.2);
+	background: rgba(1, 1, 1, 0.3);
+}
+@media (max-width: 880px) {
+	.QuadList {
+		width: 50%;
+	}
 }
 
 * {
