@@ -80,10 +80,8 @@ function setUpPopups() {
 			let popupElement = document.createElement("div");
 			popupElement.className = "Open-Popup";
 			popupElement.innerHTML = `
-			<div class="Popup-Background">
-				<div class="Popup-Container">
-				</div>
-			</div>
+			<div class="Popup-Background"></div>
+			<div class="Popup-Container"></div>
 			`;
 			popupElement.querySelector(".Popup-Background").addEventListener('click', element => {
 				popupElement.remove();
