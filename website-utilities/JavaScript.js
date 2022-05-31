@@ -93,7 +93,17 @@ function setUpPopups() {
 	});
 }
 
+function setUpNav() {
+	document.querySelector(".hud").innerHTML = `
+	<div class="center white greyB">
+		<a class="inline-block" href="https://starsshadow-dev.github.io" style="width: 400px;"><h1> StarsShadow-dev </h1></a>
+	</div>
+	`
+}
+
 window.onload = () => {
+	setUpNav();
+	setUpPopups();
 	setUpRainbowTags();
 	document.querySelectorAll(".javascript-disabled").forEach(element => {
 		element.parentNode.removeChild(element); 
@@ -103,5 +113,4 @@ window.onload = () => {
 			element.parentNode.removeChild(element); 
 		});
 	}
-	setUpPopups();
 }

@@ -2,6 +2,12 @@
 .white {
 	color: white;
 }
+.black {
+	color: #000;
+}
+.grey {
+	color: #666;
+}
 .red {
 	color: red;
 }
@@ -23,6 +29,12 @@
 .whiteB {
 	background-color: #fff;
 }
+.blackB {
+	background-color: #000;
+}
+.greyB {
+	background-color: #666;
+}
 .redB {
 	background-color: #f00;
 }
@@ -33,12 +45,15 @@
 	background-color: #00f;
 }
 .fadeB {
+	box-shadow: 0;
 	background: rgba(1, 1, 1, 0);
-	transition: background 0.5s;
+	transition: background 2.5s;
+	transition: box-shadow 0.5s;
 }
 .fadeB:hover {
 	border-style: solid;
-	border-color: rgba(1, 1, 1, 0.2);
+	box-shadow: 0 10px 10px 0 rgba(0,0,0,0.2), 0 10px 10px 0 rgba(0,0,0,0.39);
+	border-color: rgba(1, 1, 1, 0.05);
 	background: rgba(1, 1, 1, 0.3);
 }
 
@@ -55,11 +70,18 @@
 .padding {
 	padding: 10px;
 }
+.margin {
+	margin-left: 100px;
+	margin-right: 100px;
+}
 .pull-left {
 	float: left;
 }
 .pull-right {
 	float: right;
+}
+.inline-block {
+	display: inline-block;
 }
 .center {
 	text-align: center;
@@ -124,7 +146,7 @@
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
+  padding: 10px 10px;
   z-index: 1;
 }
 .dropdown:hover .dropdown-content {
@@ -148,6 +170,7 @@
 	text-align: center;
 	display: inline-block;
 }
+
 @media (max-width: 1000px) {
 	.QuadList {
 		width: 50%;
@@ -164,7 +187,7 @@ header {
 	/*background-color: #666;*/
 	padding: 1px;
 	text-align: center;
-	font-size: 35px;
+	font-size: 30px;
 	color: white;
 }
 
